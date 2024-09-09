@@ -1,8 +1,6 @@
-import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
-import static org.testng.ITestResult.CREATED;
 
 public class PostmanEchoToRestAssuredTest {
     @Test(priority = 1)
